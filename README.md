@@ -2,6 +2,8 @@
 
 This project is an Arduino-based controller for Neopixel LED strips, featuring multiple LED rows, potentiometer-based adjustments, button inputs, and EEPROM memory storage. It allows users to modify brightness, saturation, color, and balance across different LED rows.
 
+![vlc_9uL7p5MVmG](https://github.com/user-attachments/assets/b450113f-58fd-4037-8ce3-e20d8e4df911)
+
 ## **Features**
 
 - Multi-row Neopixel Control: Supports up to three rows of Neopixel LEDs with dynamic configuration.
