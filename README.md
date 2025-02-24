@@ -84,9 +84,13 @@ __Button 2__ (Fig.: (G.1), (H.1)): Selecting the row for change
 - if it is in balance mode, it will show which LED is selected and how many are affected (Fig.: (K.2))
 - a counter for button 1 will indicate when all the existing rows where selected, to switch to all rows being activated simultaneously
 
-
 ![Screenshot 2025-02-24 181035](https://github.com/user-attachments/assets/b169356e-412b-4c1a-995b-7ea57f945bff)
 
+## **CAD Model**
+- I made a CAD model of all the components needed for the project
+- You can download and check it out here: https://grabcad.com/library/neopixel-potentiometer-1
+  
+![Screenshot 2025-02-24 184411](https://github.com/user-attachments/assets/ab211765-299f-427b-87c6-1b8e13ee8f70)
 
 ## **License**
 
