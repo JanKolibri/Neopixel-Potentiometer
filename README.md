@@ -94,6 +94,18 @@ __Button 2__ (Fig.: (G.1), (H.1)): Selecting the row for change
   
 ![Screenshot 2025-02-24 184411](https://github.com/user-attachments/assets/ab211765-299f-427b-87c6-1b8e13ee8f70)
 
+## **Configuration**
+Change the following configuration in the code according to your needs
+### #region ▀▄▀▄▀▄ CONFIGURATION - MEMORY 
+- Fig.: (O.1): The number of rows that are in your setup; deactiviate the other
+
+###  #region ▀▄▀▄▀▄ CONFIGURATION - NEOPIXEL */
+- Fig.: (P.2): The connection of the Neopixels with the Arduino (i.e. Pin 3)
+- Fig.: (P.3): The number of pixels in one row of the (i.e. 3 LEDs in one row of Neopixels)
+- Fig.: (P.4): Activate the storage for the number of rows needed and deactivate the rest
+- Fig.: (P.5): Activate the number of rows used
+![Picture3](https://github.com/user-attachments/assets/0620635c-3406-49e2-9554-fe85c3156e10)
+
 ## **License**
 
 This project is licensed under the MIT License. See LICENSE for details.
