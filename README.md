@@ -59,6 +59,35 @@ Use the potentiometers to adjust the LED colors and buttons to switch between LE
 - __NEOPIXEL_SHOW():__ Updates LED colors and brightness dynamically.
 - __EEPROM_SAVE() / EEPROM_LOAD():__ Saves and loads LED states to/from memory.
 
+## **Menu Structure**
+
+__Button 1__ (Fig.: (E.1)): Cycling through all the rows
+- 4x Flashes (1x row) → This row selected for change of saturation, brightness, colour
+- 4x Flashes (all row) → All rows selected for change of saturation, brightness, colour
+![Screenshot 2025-02-24 174700](https://github.com/user-attachments/assets/fcdb957d-c98d-41aa-8f4a-23d80d7cee27)
+
+__Button 2__ (Fig.: (G.1), (H.1)): Selecting the row for change
+- 1x Flash → Change this row with the potentiometer for colour, saturation, brightness
+- 2x Flashes → Change this row with the potentiometer for position, number and brightness of the LEDs
+![Screenshot 2025-02-24 175807](https://github.com/user-attachments/assets/3e83a655-7f4b-4e08-97c8-744fbe5ff8dd)
+
+
+## **Serial Output**
+
+### Threshold
+- to prevent overloading the serial output with thresholds
+- potentiometers → amount of change
+- buttons → triggering = refresh serial output
+
+### Output
+- when adjusting the brightness, saturation or color the values will be printed to the serial output (Fig.: (K.1))
+- if it is in balance mode, it will show which LED is selected and how many are affected (Fig.: (K.2))
+- a counter for button 1 will indicate when all the existing rows where selected, to switch to all rows being activated simultaneously
+
+
+![Screenshot 2025-02-24 181035](https://github.com/user-attachments/assets/b169356e-412b-4c1a-995b-7ea57f945bff)
+
+
 ## **License**
 
 This project is licensed under the MIT License. See LICENSE for details.
