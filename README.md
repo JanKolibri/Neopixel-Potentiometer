@@ -38,6 +38,9 @@ This project is an Arduino-based controller for Neopixel LED strips, featuring m
 |Button 1|Pin 11|
 |Button 2|Pin 12|
 
+![Screenshot 2025-02-24 164649](https://github.com/user-attachments/assets/85f2da62-e507-4449-b68d-171fe7fa36e5)
+
+
 ## **Installation & Usage**
 
 1. Clone the repository:
